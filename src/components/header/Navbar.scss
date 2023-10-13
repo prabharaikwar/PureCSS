@@ -1,0 +1,46 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+
+    .nav-items {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+
+        li {
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            color: #000;
+            display: flex;
+
+            .dropdown {
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+.col-3 {
+    width: 20%;
+}
+
+.col-9 {
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-9 {
+        width: 100%;
+    }
+}

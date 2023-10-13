@@ -1,0 +1,81 @@
+.header-container {
+    font-family: Roboto;
+    width: 100%;
+    // display: grid;
+    margin: auto;
+    padding: 2px;
+    background-color: #1C519D;
+    color: white;
+    align-items: center;
+
+
+    .header-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .line {
+            width: 1px;
+            height: 34px;
+            background: #FCFCFC;
+        }
+
+    }
+}
+
+.phone-icon {
+    margin-right: 12px;
+}
+
+.header-nav {
+    padding: 2px;
+    display: flex;
+
+    .input-grp {
+        display: flex;
+
+        .input-form {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            border: 0;
+            line-height: 24px;
+            width: 50%;
+            background-color: #1C519D;
+            color: white;
+        }
+
+        ::placeholder {
+            color: white;
+            opacity: 1;
+        }
+    }
+
+    .search-btn {
+        width: 24px;
+        height: 24px;
+        padding: 4px;
+        // margin: 2px;
+        margin-top: 12px;
+        color: white;
+        background-color: #1C519D;
+        font-family: Roboto;
+        cursor: pointer;
+    }
+}
+
+.btn-nav {
+    border-radius: 58px;
+    border: 1px solid var(--brand-green, #8CC63F);
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    background-color: #1C519D;
+    font-family: Roboto;
+}
